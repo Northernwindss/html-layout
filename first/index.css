@@ -1,0 +1,58 @@
+
+
+#headerBox{
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 100%;
+  background-color: grey;
+}
+/* 
+.class{
+
+} */
+
+.parent{
+  /* background-color: red; */
+  height: 80vh;
+  width: 100%;
+  /* border: 1px black solid; */
+}
+
+.left{
+  background-color: yellowgreen;
+  height: 90vh;
+  width: 15%;
+  float: left;
+  align-content: center;
+  /* border: 1px black solid; */
+
+}
+
+
+.right{
+  background-color: green;
+  height: 80vh;
+  width: 70%;
+  float: right;
+  align-content: center;
+  /* border: 1px black solid; */
+
+}
+  
+.mid{
+  background-color: blue;
+  height: 90vh;
+  width: 15%;
+  float: right;
+  align-content: center;
+  /* border: 1px black solid; */
+}
+
+.footer{
+  background-color: peachpuff;
+  height: 10vh;
+  width: 100%;
+  align-content: center;
+  
+}
